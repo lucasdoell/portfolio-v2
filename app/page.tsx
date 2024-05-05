@@ -8,7 +8,7 @@ export default function Page() {
       <h1 className="mb-2 text-2xl font-semibold tracking-tighter">
         Lucas Doell
       </h1>
-      <p className="max-w-md items-center text-pretty font-mono text-xs text-gray-400">
+      <p className="max-w-md items-center text-pretty font-mono text-xs text-neutral-600 dark:text-neutral-400">
         <Link
           className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
           href="https://www.google.com/maps/place/Ithaca"
