@@ -116,12 +116,12 @@ export default function Resume() {
                   {job.company}
                 </a>
               </h3>
-              <div className="text-md tabular-nums text-gray-500">
+              <div className="text-md tabular-nums">
                 {job.startDate} - {job.endDate}
               </div>
             </div>
             <h4 className="leading-none italic">{job.title}</h4>
-            <p className="mt-4 text-xs text-gray-500 dark:text-gray-400 font-mono">
+            <p className="mt-4 text-xs text-neutral-600 dark:text-neutral-400 font-mono">
               {job.description}
             </p>
           </li>
@@ -138,7 +138,7 @@ export default function Resume() {
               <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none mb-2">
                 {school.school}
               </h3>
-              <div className="text-md tabular-nums text-gray-500">
+              <div className="text-md tabular-nums">
                 {school.startDate} - {school.endDate}
               </div>
             </div>

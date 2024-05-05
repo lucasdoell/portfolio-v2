@@ -11,7 +11,7 @@ export function ProjectCard({ title, description, link }: Props) {
     <Card className="flex flex-col overflow-hidden border border-neutral-200 dark:border-neutral-800 p-3">
       <CardHeader className="">
         <div className="space-y-1">
-          <CardTitle className="text-base">
+          <CardTitle className="text-base mb-2">
             <a
               href={link}
               target="_blank"
@@ -23,7 +23,7 @@ export function ProjectCard({ title, description, link }: Props) {
           <div className="hidden font-mono text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
-          <CardDescription className="font-mono text-xs text-gray-500 dark:text-gray-400">
+          <CardDescription className="font-mono text-xs text-neutral-600 dark:text-neutral-400">
             {description}
           </CardDescription>
         </div>
