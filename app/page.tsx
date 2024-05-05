@@ -34,6 +34,9 @@ export default function Page() {
         and TypeScript.
       </p>
       <div className="my-8">
+        <h2 className="mb-2 text-xl font-semibold tracking-tighter">
+          Recent Blog Posts
+        </h2>
         <BlogPosts />
       </div>
     </section>
