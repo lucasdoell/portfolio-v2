@@ -100,6 +100,11 @@ const projects = [
   },
 ];
 
+export const metadata = {
+  title: "Résumé",
+  description: "This is my résumé",
+};
+
 export default function Resume() {
   return (
     <section>
